@@ -1,0 +1,26 @@
+.login {
+  text-align: center;
+}
+
+.login p {
+  color: #aaa;
+}
+
+@media  (max-width:900px){
+
+  .login{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form__{
+    width: 90%;
+  }
+  input{
+    width: 100%;
+  }
+ }
